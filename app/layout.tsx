@@ -16,7 +16,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <textarea
+          style={{
+            width: "350px",
+            height: "50px",
+            marginTop: "20px",
+          }}
+          placeholder="comments"
+        />
+      </body>
     </html>
   );
 }
