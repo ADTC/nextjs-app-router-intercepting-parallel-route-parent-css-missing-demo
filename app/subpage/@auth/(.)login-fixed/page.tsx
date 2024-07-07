@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <Modal>
       <p>
-        LOGIN PAGE - This is the <strong>intercepted</strong> route.
+        LOGIN PAGE (FIXED) - This is the <strong>intercepted</strong> route.
       </p>
     </Modal>
   );

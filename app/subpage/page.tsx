@@ -10,7 +10,8 @@ export default function SubPage() {
         </p>
       </div>
       <nav>
-        <Link href="/subpage/login">GO TO LOGIN</Link>
+        <Link href="/subpage/login">GO TO LOGIN</Link> --- OR ---{" "}
+        <Link href="/subpage/login-fixed">GO TO LOGIN (FIXED)</Link>
       </nav>
     </main>
   );
